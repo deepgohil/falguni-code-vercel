@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline CSS Form</title>
+</head>
+<body>
+    <h2 style="text-align: center; color: #333;">Contact Us</h2>
+    <form action="/submit_form" method="post" style="max-width: 500px; margin: auto; padding: 10px; border: 1px solid #ccc; border-radius: 10px; background-color: #f9f9f9;">
+        <div style="margin-bottom: 15px;">
+            <label for="name" style="display: block; margin-bottom: 5px; color: #555;">Name:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="email" style="display: block; margin-bottom: 5px; color: #555;">Email:</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px;">
+        </div>
+        <div style="margin-bottom: 15px;">
+            <label for="message" style="display: block; margin-bottom: 5px; color: #555;">Message:</label>
+            <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+        </div>
+        <div style="text-align: center;">
+            <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
